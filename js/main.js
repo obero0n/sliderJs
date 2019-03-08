@@ -37,7 +37,7 @@ buttonDivPrev.appendChild(buttonPrev);
 buttonDiv.appendChild(button);
 button.innerHTML = "Next";
 buttonPrev.innerHTML = "Prev";
-
+textbox.innerHTML = "Bibidi";
 
 // button next/prev
 buttonPrev.onclick = function()
@@ -87,5 +87,6 @@ else {
   tour = 0;
 }
 img.src = tab[tour];
+textbox.innerHTML = tabText[tour];
 }
 ,5000);
